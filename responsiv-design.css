@@ -39,6 +39,11 @@ footer {
     background-color: hsl(99, 79%, 68%);
     text-align: center;
 }
-
+@media all and (max-width: 800px) {
+	main {
+        flex-wrap: wrap;
+        min-height: 0;
+    }
 }
+
 

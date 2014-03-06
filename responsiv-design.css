@@ -54,6 +54,17 @@ footer {
         display: inline-block;
         padding: 0 1em;
     }
+	article {
+        flex: 6 6 400px;
+    }
+    aside {
+        flex: 2 2 100px;
+    }
+	article > h2::after {
+        color: red;
+        content: "<800px";
+        display: block;
+    }
 }
 
 
